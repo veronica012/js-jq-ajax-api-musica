@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Api Playlist</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    </head>
+    <body>
+        <div class="container-card"></div>
+        <script id="entry-template" type="text/x-handlebars-template">
+            <div class="card">
+                <img class="card-img" src="..." alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">{{title}}</h5>
+                    <p class="card-text">{{author}}</p>
+                    <p class="card-text">{{genre}}</p>
+                    <p class="card-text">{{year}}</p>
+                </div>
+            </div>
+        </script>
+        <script src="main.js" charset="utf-8"></script>
+    </body>
+</html>
