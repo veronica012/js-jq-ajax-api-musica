@@ -3,30 +3,54 @@
     margin: 0;
     box-sizing: border-box;
 }
-.container-card {
-    width: 1200px;
-    height: 100vh;
+body {
+    background-color: #BBCDE3;
+}
+.container{
+    width: 1070px;
+    height: 100%;
     margin: auto;
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px 0;
+
+}
+.header-container {
+    width: 1400px;
+    height: 100px;
+    margin: auto;
+}
+header {
+    background-color: black;
+}
+.logo {
+    width: 100px;
+    height: 100%;
+}
+.logo img  {
+    width: 80px;
+    margin-top:10px;
 }
 .card {
     width: 200px;
-    height: 350px;
+    height: 360px;
     padding: 20px;
-    margin: 10px;
+    margin: 5px;
     background-color: black;
     float: left;
+
 }
 .card-img {
     max-width: 100%;
 }
 .card-title {
-    margin: 20px 0;
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     text-transform: uppercase;
 }
 .card-text {
     color: grey;
-    font-size: 20px;
+    font-size: 15px;
 }
